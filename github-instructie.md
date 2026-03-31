@@ -19,10 +19,9 @@ Open je terminal en voer dit commando uit:
 git clone <url-van-de-repo-van-de-trainer>
 
 git clone https://github.com/jelmer-calco/python-fundamentals-exercises.git
+
 Stap 2: Ga naar de map van het project
 cd python-fundamentals-exercises
-
-
 
 Stap 3: Maak op GitHub een nieuwe lege repository aan
 
@@ -35,18 +34,22 @@ python-vervolgopdrachten-jouwnaam
 
 Maak deze repository leeg aan.
 
-Dus:
+Dus: verder niks aanklikken qua gitignore ed
 
-voeg geen README toe
-voeg geen .gitignore toe
+
 voeg geen license toe
 Stap 4: Verwijder de koppeling met de repository van de trainer
 
 git remote remove origin
 
+
+
 Stap 5: Koppel je lokale project aan je eigen repository
 Voeg nu jouw eigen GitHub-repository toe als nieuwe origin:
-git remote add origin <url-van-jouw-eigen-repository>
+kies hieronder de url voor jouw repop
+git remote add origin https://github.com/jelmer-calco/test.git
+git branch -M main
+git push -u origin main
 
 Voorbeeld:
 git remote add origin https://github.com/jouw-gebruikersnaam/python-opdracht-jouwnaam.git
@@ -99,4 +102,3 @@ git add .
 git commit -m "Beschrijving van je wijziging"
 git push
 
-Ik kan het ook meteen omzetten naar een kortere, strakkere versie voor trainees.
