@@ -9,7 +9,7 @@ Deze opdrachten bouwen verder op:
 - dictionaries
 - if-statements
 - loops
-- functies
+- functiess
 
 Onderwerpen in volgorde:
 1) Input en interactie
