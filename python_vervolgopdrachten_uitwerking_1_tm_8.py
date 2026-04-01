@@ -84,6 +84,7 @@ def opdracht_2():
     print("Aantal woorden:")
     print(len(woorden))
 
+# opdracht_1()
 
 # ============================================================
 # 3) Lists en dictionaries combineren
@@ -119,6 +120,7 @@ def opdracht_3():
     for naam, cijfer in resultaten.items():
         print(f"{naam} heeft een {cijfer}")
 
+# opdracht_1()
 
 # ============================================================
 # 4) While-loops
